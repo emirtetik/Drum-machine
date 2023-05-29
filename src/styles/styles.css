@@ -1,0 +1,113 @@
+body {
+    background-color: #693434;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  
+  #drum-machine {
+    top:100px;
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  #display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    background-color: #ececec;
+    border: 2px solid #572e2e;
+    border-radius: 5px;
+  }
+  
+  .drum-pads {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .drum-pad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #f9f9f9;
+    border: 2px solid #773232;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .drum-pad.active {
+    background-color: #ffcc00;
+  }
+  
+  .clip {
+    display: none;
+  }
+  
+  .drum-pad:focus {
+    outline: none;
+  }
+ 
+  @media (max-width: 480px) {
+    #drum-machine {
+      padding: 20px;
+    }
+  
+    #display {
+      font-size: 20px;
+    }
+  
+    .drum-pads {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  button {
+    appearance: none;
+    background-color: transparent;
+    border: 0.125em solid #1A1A1A;
+    border-radius: 0.9375em;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 20px;
+    outline: none;
+    padding: 1em 2.3em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+   }
+   
+   button:disabled {
+    pointer-events: none;
+   }
+   
+   button:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+   }
+   
+   button:active {
+    box-shadow: none;
+    transform: translateY(0);
+   }
