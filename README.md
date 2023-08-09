@@ -1,4 +1,44 @@
-# Getting Started with Create React App
+# Drum Machine Uygulaması
+
+![Drum Machine Uygulaması](public/drum.png)
+
+Bu proje, kullanıcının farklı davul sesleri çalmasına olanak tanıyan bir web uygulamasını temsil eder. Bu projeyi geliştirirken React ve CSS kullanarak kullanıcı arayüzünü oluşturmayı amaçladım.
+
+## Özellikler
+
+- Farklı davul seslerini çalma
+- Her davul tipi için farklı klavye tuşları
+- Basit ve kullanıcı dostu arayüz
+- Sesi açma/kapatma seçeneği
+
+
+## Kullanılan Teknolojiler
+
+- **React**: Kullanıcı arayüzünün oluşturulmasında ve dinamik özelliklerin eklenmesinde kullanıldı.
+- **CSS**: Stillemelerin düzenlenmesi ve sayfa tasarımının oluşturulmasında kullanıldı.
+
+## Kullanım
+
+1. Proje sayfasına gidin: [Drum Machine Uygulaması](https://drum-machine-kappa-eight.vercel.app/)
+2. Sayfa üzerindeki davul tuşlarına veya klavye üzerindeki ilgili tuşlara tıklayarak davul seslerini çalın.
+3. Sesi açmak veya kapatmak için sayfanın altındaki ses düğmesine tıklayın.
+
+## Geliştirme Süreci
+
+1. Gereksinimlerin belirlenmesi ve tasarım oluşturulması
+2. React bileşenlerinin ve sayfa yapısının oluşturulması
+3. CSS stillemelerinin eklenmesi ve tasarımın düzenlenmesi
+4. Davul seslerini çalan fonksiyonların yazılması
+5. Ses düğmesinin işlevselliğinin sağlanması
+6. Kod hatalarının ve geliştirmelerin yapılması
+
+## Katkılar
+
+Bu proje, kişisel gelişim amacıyla oluşturulmuştur. Ancak, hatalar veya geliştirmeler hakkında önerilerde bulunmak isterseniz, çekme istekleri (pull request) açabilirsiniz.
+
+## Lisans
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
